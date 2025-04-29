@@ -3,7 +3,7 @@ name: Trigger Repo B Workflow
 on:
   push:
     branches:
-      - main  # or your desired branch
+      - main
 
 jobs:
   trigger:
