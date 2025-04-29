@@ -18,3 +18,6 @@ jobs:
             -H "Accept: application/vnd.github.v3+json" \
             https://api.github.com/repos/vijaya49/AWS-ECS-Infra/dispatches \
             -d '{"event_type": "trigger-docker-build"}'
+
+
+#trigger
