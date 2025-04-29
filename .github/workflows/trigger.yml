@@ -1,4 +1,3 @@
-# repo-a/.github/workflows/trigger-repo-b.yml
 name: Trigger Repo B Workflow
 
 on:
@@ -17,5 +16,5 @@ jobs:
           curl -X POST \
             -H "Authorization: token $PAT" \
             -H "Accept: application/vnd.github.v3+json" \
-            https://api.github.com/repos/<your-org-or-user>/repo-b/dispatches \
+            https://api.github.com/repos/vijaya49/AWS-ECS-Infra/dispatches \
             -d '{"event_type": "trigger-docker-build"}'
