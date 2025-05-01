@@ -16,7 +16,7 @@ jobs:
           curl -X POST \
             -H "Authorization: token $PAT" \
             -H "Accept: application/vnd.github.v3+json" \
-            https://api.github.com/repos/vijaya49/AWS-ECS-Infra/dispatches \
+            https://api.github.com/repos/vijaya49/Deployment-Repo/dispatches \
             -d '{"event_type": "trigger-docker-build"}'
 
 
